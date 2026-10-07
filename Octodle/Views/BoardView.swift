@@ -27,23 +27,9 @@ struct BoardView: View {
         .contentShape(Rectangle())
     }
 
-    @ViewBuilder
     private func tile(row: Int, column: Int) -> some View {
-        let letter: Character?
-        let color: Color
-        if row < rows.count {
-            letter = Array(rows[row].word)[column]
-            color = Palette.color(for: rows[row].states[column])
-        } else if row == rows.count, !isSolved, !isFinished {
-            let typed = Array(input)
-            letter = column < typed.count ? typed[column] : nil
-            color = Palette.emptyTile.opacity(2)
-        } else {
-            letter = nil
-            color = Palette.emptyTile
-        }
-
-        RoundedRectangle(cornerRadius: 3)
+        let (letter, color) = content(row: row, column: column)
+        return RoundedRectangle(cornerRadius: 3)
             .fill(color)
             .aspectRatio(1, contentMode: .fit)
             .overlay {
@@ -54,5 +40,16 @@ struct BoardView: View {
                         .foregroundStyle(.white)
                 }
             }
+    }
+
+    private func content(row: Int, column: Int) -> (Character?, Color) {
+        if row < rows.count {
+            return (Array(rows[row].word)[column], Palette.color(for: rows[row].states[column]))
+        }
+        if row == rows.count, !isSolved, !isFinished {
+            let typed = Array(input)
+            return (column < typed.count ? typed[column] : nil, Palette.inputTile)
+        }
+        return (nil, Palette.emptyTile)
     }
 }
