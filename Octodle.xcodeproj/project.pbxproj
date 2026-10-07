@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AA37612B5A09EF201798F49 /* OctodleKit in Frameworks */ = {isa = PBXBuildFile; productRef = B41B4C9381D229276A074283 /* OctodleKit */; };
+		2B64E6B7E6071D6E81A8679F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81946D4E3555B6CE705697C6 /* ResultView.swift */; };
+		2D5E72E90CD957848DB8D79F /* SavedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B0D6260E4FA68706E2C84 /* SavedGame.swift */; };
+		51CB7404EE16D471B41B966E /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1060178564775329D3DE5F /* KeyboardView.swift */; };
+		95E7CC1ABA7A73A384B2440E /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA75418101D4ABAAC49E44F /* LeaderboardView.swift */; };
+		9CC2926B579979AF7D9388B5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C196D52181DA1CB1878F1 /* GameView.swift */; };
+		AEDAB2699EA72EFC696F6DC4 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5186E261B8E4E68892A84656 /* Palette.swift */; };
+		C70EBDD93194F47D9AC62021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2866CAA3255D6439719D4D7E /* ContentView.swift */; };
+		CE7FB6C5959B54F18CC0C363 /* OctodleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CDC11A8C25B0E35CFB1AE7 /* OctodleApp.swift */; };
+		D3CDC0FE47D2E30A55A4E8DC /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA3D5B15E6E58C5D2D4AA3 /* BoardView.swift */; };
+		E6AF894E6B272A27A1E5BB4D /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374B1237054050DB73615A35 /* GameViewModel.swift */; };
+		F9B356242E94A49B178E7B7B /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3C95B0480CBAE52C33DE4F /* StatsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C6B0D6260E4FA68706E2C84 /* SavedGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedGame.swift; sourceTree = "<group>"; };
+		2866CAA3255D6439719D4D7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		374B1237054050DB73615A35 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		4F3C95B0480CBAE52C33DE4F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		5186E261B8E4E68892A84656 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		5CEA3D5B15E6E58C5D2D4AA3 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		714FD3874A82C3B219ECFC79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		81946D4E3555B6CE705697C6 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		8F1060178564775329D3DE5F /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		9AA75418101D4ABAAC49E44F /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		ACC6CC479C5C6F1DDEB76CA5 /* Octodle.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Octodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41C196D52181DA1CB1878F1 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		D4CDC11A8C25B0E35CFB1AE7 /* OctodleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctodleApp.swift; sourceTree = "<group>"; };
+		E7419FDCDFEEF603B720FBBD /* OctodleKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OctodleKit; path = OctodleKit; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25030F8993F3FEAEB82519D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA37612B5A09EF201798F49 /* OctodleKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BDB3CCD7CD0F85837FDBE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC6CC479C5C6F1DDEB76CA5 /* Octodle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DA21474798F4A221ABAF504 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CEA3D5B15E6E58C5D2D4AA3 /* BoardView.swift */,
+				D41C196D52181DA1CB1878F1 /* GameView.swift */,
+				8F1060178564775329D3DE5F /* KeyboardView.swift */,
+				9AA75418101D4ABAAC49E44F /* LeaderboardView.swift */,
+				5186E261B8E4E68892A84656 /* Palette.swift */,
+				81946D4E3555B6CE705697C6 /* ResultView.swift */,
+				4F3C95B0480CBAE52C33DE4F /* StatsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79ECC2CF299C4BB3DDB8E9F5 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				374B1237054050DB73615A35 /* GameViewModel.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		88EA2000B336A6C464ACD647 /* Octodle */ = {
+			isa = PBXGroup;
+			children = (
+				714FD3874A82C3B219ECFC79 /* Info.plist */,
+				CA9E1F080323E2C1DDD8C5B3 /* App */,
+				79ECC2CF299C4BB3DDB8E9F5 /* Game */,
+				8D0FEEB14974A80500AD471C /* Models */,
+				5DA21474798F4A221ABAF504 /* Views */,
+			);
+			path = Octodle;
+			sourceTree = "<group>";
+		};
+		8D0FEEB14974A80500AD471C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C6B0D6260E4FA68706E2C84 /* SavedGame.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA9E1F080323E2C1DDD8C5B3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2866CAA3255D6439719D4D7E /* ContentView.swift */,
+				D4CDC11A8C25B0E35CFB1AE7 /* OctodleApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DBF0C2316598F4F7971F9446 = {
+			isa = PBXGroup;
+			children = (
+				88EA2000B336A6C464ACD647 /* Octodle */,
+				F852B2BC55FE475A8B72E93A /* Packages */,
+				02BDB3CCD7CD0F85837FDBE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F852B2BC55FE475A8B72E93A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E7419FDCDFEEF603B720FBBD /* OctodleKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C334876F32DF871A269D329 /* Octodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0D2D472EACFB253D4BB800 /* Build configuration list for PBXNativeTarget "Octodle" */;
+			buildPhases = (
+				FEC233993EEBC99088E105BC /* Sources */,
+				25030F8993F3FEAEB82519D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Octodle;
+			packageProductDependencies = (
+				B41B4C9381D229276A074283 /* OctodleKit */,
+			);
+			productName = Octodle;
+			productReference = ACC6CC479C5C6F1DDEB76CA5 /* Octodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC3E4FED8506E7E697E7AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 9D800002AD05C8C3E1D4434D /* Build configuration list for PBXProject "Octodle" */;
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ru,
+			);
+			mainGroup = DBF0C2316598F4F7971F9446;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DA1C287AACBFC6BB082E1142 /* XCLocalSwiftPackageReference "OctodleKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 02BDB3CCD7CD0F85837FDBE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C334876F32DF871A269D329 /* Octodle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC233993EEBC99088E105BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CDC0FE47D2E30A55A4E8DC /* BoardView.swift in Sources */,
+				C70EBDD93194F47D9AC62021 /* ContentView.swift in Sources */,
+				9CC2926B579979AF7D9388B5 /* GameView.swift in Sources */,
+				E6AF894E6B272A27A1E5BB4D /* GameViewModel.swift in Sources */,
+				51CB7404EE16D471B41B966E /* KeyboardView.swift in Sources */,
+				95E7CC1ABA7A73A384B2440E /* LeaderboardView.swift in Sources */,
+				CE7FB6C5959B54F18CC0C363 /* OctodleApp.swift in Sources */,
+				AEDAB2699EA72EFC696F6DC4 /* Palette.swift in Sources */,
+				2B64E6B7E6071D6E81A8679F /* ResultView.swift in Sources */,
+				2D5E72E90CD957848DB8D79F /* SavedGame.swift in Sources */,
+				F9B356242E94A49B178E7B7B /* StatsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A905951144E983B88887A15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Octodle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kudji.octodle;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE7CABED4DF79234A882162B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Octodle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kudji.octodle;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C66140A94C805D30B6C28BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		D91EC2588739CCD4883D18A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B0D2D472EACFB253D4BB800 /* Build configuration list for PBXNativeTarget "Octodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7CABED4DF79234A882162B /* Debug */,
+				A905951144E983B88887A15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D800002AD05C8C3E1D4434D /* Build configuration list for PBXProject "Octodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91EC2588739CCD4883D18A6 /* Debug */,
+				C66140A94C805D30B6C28BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DA1C287AACBFC6BB082E1142 /* XCLocalSwiftPackageReference "OctodleKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = OctodleKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B41B4C9381D229276A074283 /* OctodleKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OctodleKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4AC3E4FED8506E7E697E7AA4 /* Project object */;
+}

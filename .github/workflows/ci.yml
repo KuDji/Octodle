@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  kit-linux:
+    runs-on: ubuntu-latest
+    container: swift:6.1
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift test --package-path OctodleKit
+
+  ios:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Xcode project is up to date
+        run: |
+          brew install xcodegen
+          xcodegen generate
+          git diff --exit-code -- Octodle.xcodeproj Octodle/Info.plist
+      - name: Build app
+        run: |
+          xcodebuild build \
+            -project Octodle.xcodeproj \
+            -scheme Octodle \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO
