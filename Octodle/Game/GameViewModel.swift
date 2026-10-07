@@ -27,9 +27,10 @@ final class GameViewModel {
         self.mode = mode
         profile = Self.fetchProfile(in: context)
         let day = GameDay.number()
-        saved = Self.fetchGame(day: day, mode: mode, in: context)
-        state = GameState(day: day, mode: mode, tries: saved.tries)
-        betterThan = saved.betterThan
+        let game = Self.fetchGame(day: day, mode: mode, in: context)
+        saved = game
+        state = GameState(day: day, mode: mode, tries: game.tries)
+        betterThan = game.betterThan
         reportResultIfNeeded()
     }
 
